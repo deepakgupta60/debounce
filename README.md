@@ -47,8 +47,24 @@ browser only care about html+css+js
 ***LSUT TASK
 
 
+Your State should be local, not pass any where else for performing some task..
+
+to your respective component..
+
+Performance: switch board in room, separate entity of outside world.
+
+Two developer are working. App.js and A.js
+
+which component is updated the data.
+
+redudant stuff > re rendering is increase, maintaince is also a problem.
+
+App > App Component is re render then all are re render.
+
 
 ##### Debouncing
+
+
 
 
 
