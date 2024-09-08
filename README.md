@@ -65,7 +65,32 @@ App > App Component is re render then all are re render.
 ##### Debouncing
 
 
+// React work concept that is mutability..
+
+// does any one know this..
+
+initial value and target value should be same.
+
+old data is not equal to current data..
+
+my ui and my data should be change.
 
 
+always use the final value inside the setData state..
 
+like setData(data.videos) ->
 
+for undefined is set to complete the data.
+
+### DEBOUNCING is a solution..
+
+Relatives: mother your prepare some guest, she will be preparing something, 
+
+Samosa stuff -> guest and being a person in house.
+
+can i just eat this, once your, lets a deal i will give you particular thing after hour, will.
+
+9 - 10 pm > after one hour. 
+if you ask before 1hr, then it will add 1hr on that.
+
+at 10 again can i give me, on top of this. according to our deal, we have a deal, current time, helps us to solve this problem, resources and data, getting some data.  
