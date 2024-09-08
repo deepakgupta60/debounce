@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+// import './App.css';
+
+import { useState } from "react";
+import A from "./component/A";
+import B from "./component/B";
 
 function App() {
+
+  const [val, setval]=useState(0);
+  const [text, settext]=useState("");
+  const getData = (valueA,text)=>{
+    setval(valueA)
+    settext(text)
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <A getData={getData}/>
+      <B val={val} text={text}/>
     </div>
   );
 }
