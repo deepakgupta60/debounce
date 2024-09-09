@@ -94,3 +94,49 @@ can i just eat this, once your, lets a deal i will give you particular thing aft
 if you ask before 1hr, then it will add 1hr on that.
 
 at 10 again can i give me, on top of this. according to our deal, we have a deal, current time, helps us to solve this problem, resources and data, getting some data.  
+
+
+### Debouncing Recap
+
+Javascript Throttling
+1) mechanism that allows function execution for a limited number of times after that i will block its execution..
+
+
+set time is clear
+clear time out >
+sleeper function > kind i want a pause moment, task 1
+intentional delay > working on task one, take rest, sleep or do something else.
+
+********************************************
+
+SetInterval use clearInterval
+SetTimeout use clearTimeOut
+
+when timerid is remove then its data is also remove..
+
+Common Interview Question
+1) Build a Stopwatch in react
+2) Build a Stopwatch in js
+
+Why should we use setinterval or settimeout?
+>> What the understanding the cleartimeout and clearinterval() 
+>> 
+
+SetInterval() => execute the function again and again, what time you have issued
+
+SetTimeOut() => execute the function only one time.
+
+does this make sense.
+
+Real world example: all are typing some name, 100*4, they will be doing,
+
+kind of bombarding with api, every body is searching api.
+
+don't want to put heavy load on server.
+
+that's why we implement debouncing,
+
+
+
+
+
