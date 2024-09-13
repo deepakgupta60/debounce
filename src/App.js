@@ -1,9 +1,12 @@
-import Debounce from "./debounce/Debounce";
+// import Debounce from "./debounce/Debounce";
+
+import DebounceApp from "./DebounceApp";
 
 const App=()=>{
     return(
         <>
-        <Debounce/>
+    <DebounceApp/>
+        {/* <Debounce/> */}
         </>
     )
 }
